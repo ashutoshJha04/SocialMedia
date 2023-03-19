@@ -1,0 +1,144 @@
+.rightbar{
+    flex: 3.5;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+}
+.rightbarwwrapper{
+padding: 20px;
+}
+.birthdayContainer{
+        display: flex;
+        align-items: center;
+        height: 70px;
+        margin-bottom: 20px;
+        box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+        -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+        border-radius: 10px;
+        padding: 20px;
+        
+
+}
+.birthdayimg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+.birthdaytext{
+    font-weight: 300;
+    font-size: 15px;
+
+}
+.rightbarAd{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    
+    
+}
+.rightbartitile{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.rightbarfreindlist{
+   padding: 20px;
+}
+.rightbarfreind{
+    list-style: none;
+    margin-bottom: 15px;
+    
+
+}
+.rightbarfreindimg{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    
+}
+.rightbarimgcontainer{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    
+}
+.rightbarfreindsname{
+    margin-left: 20px;
+}
+.freindslist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.online{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+.rightbarinfo{
+
+}
+.rightbarinfoitem{
+    margin-bottom: 10px;
+    
+}
+.rightbarinfokey{
+    font-weight: 700;
+    margin-right: 20px;
+}
+.rightbarinfovalue{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.border{ 
+    padding: 12px 12px; 
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    border-radius: 10px;
+}
+.rightbarfollowings{
+    padding: 8px;
+}
+.rightbarfollowing{
+    padding: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(227, 225, 225);
+}
+.rightbarfollowingimg{
+   
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.rightbarfollowinguser{
+    font-weight: 600;
+}
+
+.rightbarFollowButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .rightbarFollowButton:focus{
+    outline: none;
+  }
